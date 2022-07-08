@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box
+}
+
+body{
+    background-image: url('https://estaticos.muyinteresante.es/uploads/images/gallery/5e7e08af5bafe85f3d764cc6/mariposas-slide_0.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(20, 20, 20);
+    font-family: 'Edu QLD Beginner', cursive;
+
+}
+
+nav{
+    background-color: rgba(119,136,153,0,2);
+width: 100%;
+}
+
+#menu{
+list-style: none;
+margin: 0;
+padding: 0;
+width: 100%;
+
+}
+
+.lista a{
+text-decoration:none;
+color: black;
+display: block;
+padding: 15px 50px;
+}
+
+#menu .lista{
+    display: inline-block;
+
+}
+
+main{
+    text-align: center;
+
+}
+
+img{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
